@@ -9,7 +9,7 @@ export const characters: Character[] = [
     color: 'var(--lacquer-red)',
     blurb:
       'Born from a stone egg atop Flower-Fruit Mountain, master of 72 transformations and wielder of the Ruyi Jingu Bang.',
-    imageUrl: '/images/wukong.webp',
+    imageUrl: `${import.meta.env.BASE_URL}images/wukong.webp`,
   },
   {
     id: 'tangseng',
@@ -19,7 +19,7 @@ export const characters: Character[] = [
     color: 'var(--imperial-gold)',
     blurb:
       'The devout Buddhist monk sent by the Tang Emperor to retrieve the sacred sutras from the West.',
-    imageUrl: '/images/tangseng.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/tangseng.jpg`,
   },
   {
     id: 'bajie',
@@ -29,7 +29,7 @@ export const characters: Character[] = [
     color: 'var(--jade)',
     blurb:
       'Once a Marshal of the Heavenly Hosts, now a half-man, half-pig disciple fond of food, rest, and mischief.',
-    imageUrl: '/images/zhu.webp',
+    imageUrl: `${import.meta.env.BASE_URL}images/zhu.webp`,
   },
   {
     id: 'wujing',
@@ -39,7 +39,7 @@ export const characters: Character[] = [
     color: 'var(--dragon-blue)',
     blurb:
       'A former river-dwelling demon turned loyal disciple, steady and dependable, carrying the luggage of the pilgrimage.',
-    imageUrl: '/images/wujing.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/wujing.jpg`,
   },
 ]
 

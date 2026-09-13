@@ -14,7 +14,10 @@ export default function App() {
 
   return (
     <Page>
-      <MusicPlayer src="/audio/wukong.mp3" title="Main Theme" />
+<MusicPlayer
+  src={`${import.meta.env.BASE_URL}audio/wukong.mp3`}
+  title="Main Theme"
+/>
 
       {activeChapter ? (
         <ChapterReader
